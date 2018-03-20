@@ -162,9 +162,11 @@ void mouseClicked(){
   
   // Perder si repite linea, cuando el valor de la matriz es mayor a 1 gracias al contador
   if((conexion2[a][c]>1)&&(conexion2[c][a]>1)){
-  fill(30,30,230);
-  textSize(29);//tamaño del texto  
-  text("Lo sentimos, repetiste linea :(",30,60);
+ fill(255);
+    rect(0,0,height,width);
+    fill(0);
+    textSize(25);  
+  text("Lo sentimos, repetiste linea :(",20,60);
   }; c=a;cont++;}
       }
     }
@@ -200,13 +202,13 @@ void mouseClicked(){
   
   // Perder si repite linea, cuando el valor de la matriz es mayor a 1 gracias al contador
   if((conexionl2[f][g]>1)&&(conexionl2[g][f]>1)){
-  fill(30,30,230);
-  textSize(29);//tamaño del texto  
-  text("Lo sentimos, repetiste linea :(",30,60);
+   fill(255);
+    rect(0,0,height,width);
+    fill(0);
+    textSize(25);  
+  text("Lo sentimos, repetiste linea :(",20,60);
   }; g=f;contl++;}
       }
     }
   }
 }
-
-  
